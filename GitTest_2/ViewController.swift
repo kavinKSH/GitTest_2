@@ -20,5 +20,9 @@ class ViewController: UIViewController {
     func configureUI() {
         print("Update Changes for UI")
     }
+    
+    func getImages() {
+        print("Download images")
+    }
 }
 
