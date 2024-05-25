@@ -16,5 +16,9 @@ class ViewController: UIViewController {
     func getDats() {
         print("Data received from server")
     }
+    
+    func configureUI() {
+        print("Update Changes for UI")
+    }
 }
 
