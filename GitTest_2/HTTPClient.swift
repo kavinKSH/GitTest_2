@@ -8,7 +8,12 @@
 import Foundation
 
 class HTTPClient {
-    private func networking () {
+    
+    func networking() {
         print("URLS")
+    }
+    
+    func downloadingImages() {
+        print("Images Downloaded")
     }
 }
