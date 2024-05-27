@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     }
     
     func getChanges() {
-        print("Upload changes")
+        print("check and upload changes")
     }
 }
 
