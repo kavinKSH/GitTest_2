@@ -8,8 +8,6 @@
 import Foundation
 
 class HTTPClient {
-    
-    init() {}
     static let shared = HTTPClient()
     func networking() {
         print("URLS")
