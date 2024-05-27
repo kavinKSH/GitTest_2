@@ -9,11 +9,12 @@ import Foundation
 
 class HTTPClient {
     
-    func networking() {
+    static func networking() {
         print("URLS")
     }
     
-    func downloadingImages() {
+    static func downloadingImages() {
         print("Images Downloaded")
     }
+    
 }

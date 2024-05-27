@@ -9,10 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var client = HTTPClient()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello World")
     }
+    
     func getDats() {
         print("Data received from server")
     }
@@ -24,5 +27,6 @@ class ViewController: UIViewController {
     func getImages() {
         print("Download images")
     }
+    
 }
 
