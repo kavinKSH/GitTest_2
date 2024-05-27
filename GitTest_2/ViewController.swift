@@ -30,5 +30,9 @@ class ViewController: UIViewController {
     func getImages() {
         print("Download images")
     }
+    
+    func getChanges() {
+        print("Upload changes")
+    }
 }
 
