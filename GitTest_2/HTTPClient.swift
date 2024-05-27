@@ -16,5 +16,4 @@ class HTTPClient {
     static func downloadingImages() {
         print("Images Downloaded")
     }
-    
 }

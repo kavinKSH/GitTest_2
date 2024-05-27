@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello World")
+        print("Hello Swift")
+        getDats()
+        configureUI()
+        getImages()
     }
     
     func getDats() {
@@ -27,6 +30,5 @@ class ViewController: UIViewController {
     func getImages() {
         print("Download images")
     }
-    
 }
 
