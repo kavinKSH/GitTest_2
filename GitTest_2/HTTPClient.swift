@@ -9,11 +9,13 @@ import Foundation
 
 class HTTPClient {
     
-    static func networking() {
+    init() {}
+    static let shared = HTTPClient()
+    func networking() {
         print("URLS")
     }
     
-    static func downloadingImages() {
+    func downloadingImages() {
         print("Images Downloaded")
     }
 }
