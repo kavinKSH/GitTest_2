@@ -36,10 +36,10 @@ class ViewController: UIViewController {
     }
     
     func updatesForUserDetails() {
-        print("UserName: Prabha")
-        print("Age: 30")
-        print("marriedStatus: Married")
-        print("Brothers: Promoth, pradeep, praveen")
+        print("UserName: Vickey")
+        print("Age: 27")
+        print("marriedStatus: unmarried")
+        print("Brothers: kaviyarasan")
     }
 }
 
