@@ -10,7 +10,13 @@ import Foundation
 class LogIn {
     private init () {}
     
+    static let shared = LogIn()
+    
     func getUserInfo() {
         print("Log In users")
+    }
+    
+    func userDetails() {
+        print("Pass the user info")
     }
 }
