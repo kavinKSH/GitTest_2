@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         getDats()
         configureUI()
         getImages()
+        receiveDatasFormClient()
     }
     
     func getDats() {
@@ -44,6 +45,15 @@ class ViewController: UIViewController {
         print("Age: 27")
         print("marriedStatus: unmarried")
         print("Brothers: kaviyarasan")
+    }
+    
+    func receiveDatasFormClient() {
+        HTTPClient.shared.networking()
+        HTTPClient.shared.downloadingImages()
+        LogIn.shared.getUserInfo()
+        Logout.shared.logoutActions()
+        Logout.shared.logoutActions()
+
     }
 }
 
