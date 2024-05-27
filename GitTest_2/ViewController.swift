@@ -34,5 +34,12 @@ class ViewController: UIViewController {
     func getChanges() {
         print("Upload changes")
     }
+    
+    func updatesForUserDetails() {
+        print("UserName: Prabha")
+        print("Age: 30")
+        print("marriedStatus: Married")
+        print("Brothers: Promoth, pradeep, praveen")
+    }
 }
 
