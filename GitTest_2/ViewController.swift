@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         print("Age: 29")
         print("marriedStatus: married")
         print("Brothers: Gopinath")
+        print("UserName: Vickey")
+        print("Age: 27")
+        print("marriedStatus: unmarried")
+        print("Brothers: kaviyarasan")
     }
 }
 
