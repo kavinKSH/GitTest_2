@@ -14,6 +14,7 @@
 		225627132C01F0A90008E3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225627122C01F0A90008E3AA /* Assets.xcassets */; };
 		225627162C01F0A90008E3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225627142C01F0A90008E3AA /* LaunchScreen.storyboard */; };
 		2256271E2C01F3220008E3AA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256271D2C01F3220008E3AA /* HTTPClient.swift */; };
+		22EA99B02C0462CE0037BC47 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA99AF2C0462CE0037BC47 /* LogIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		225627152C01F0A90008E3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		225627172C01F0A90008E3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2256271D2C01F3220008E3AA /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		22EA99AF2C0462CE0037BC47 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				225627092C01F0A80008E3AA /* AppDelegate.swift */,
 				2256270B2C01F0A80008E3AA /* SceneDelegate.swift */,
 				2256270D2C01F0A80008E3AA /* ViewController.swift */,
+				22EA99AF2C0462CE0037BC47 /* LogIn.swift */,
 				2256271D2C01F3220008E3AA /* HTTPClient.swift */,
 				2256270F2C01F0A80008E3AA /* Main.storyboard */,
 				225627122C01F0A90008E3AA /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EA99B02C0462CE0037BC47 /* LogIn.swift in Sources */,
 				2256270E2C01F0A80008E3AA /* ViewController.swift in Sources */,
 				2256270A2C01F0A80008E3AA /* AppDelegate.swift in Sources */,
 				2256271E2C01F3220008E3AA /* HTTPClient.swift in Sources */,
