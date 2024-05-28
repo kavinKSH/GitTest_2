@@ -16,6 +16,7 @@
 		2256271E2C01F3220008E3AA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256271D2C01F3220008E3AA /* HTTPClient.swift */; };
 		22EA99B02C0462CE0037BC47 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA99AF2C0462CE0037BC47 /* LogIn.swift */; };
 		22EA99B22C04683F0037BC47 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EA99B12C04683F0037BC47 /* Logout.swift */; };
+		22F899D32C05B8F90082DEF5 /* ProfileDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F899D22C05B8F90082DEF5 /* ProfileDatas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2256271D2C01F3220008E3AA /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		22EA99AF2C0462CE0037BC47 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		22EA99B12C04683F0037BC47 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		22F899D22C05B8F90082DEF5 /* ProfileDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDatas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				22EA99B12C04683F0037BC47 /* Logout.swift */,
 				22EA99AF2C0462CE0037BC47 /* LogIn.swift */,
 				2256271D2C01F3220008E3AA /* HTTPClient.swift */,
+				22F899D22C05B8F90082DEF5 /* ProfileDatas.swift */,
 				2256270F2C01F0A80008E3AA /* Main.storyboard */,
 				225627122C01F0A90008E3AA /* Assets.xcassets */,
 				225627142C01F0A90008E3AA /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				2256270A2C01F0A80008E3AA /* AppDelegate.swift in Sources */,
 				2256271E2C01F3220008E3AA /* HTTPClient.swift in Sources */,
 				2256270C2C01F0A80008E3AA /* SceneDelegate.swift in Sources */,
+				22F899D32C05B8F90082DEF5 /* ProfileDatas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
