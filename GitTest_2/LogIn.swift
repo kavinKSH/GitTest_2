@@ -13,10 +13,14 @@ class LogIn {
     static let shared = LogIn()
     
     func getUserInfo() {
-        print("Log In users")
+        print("Log In all users")
     }
     
     func userDetails() {
-        print("Pass the user info")
+        print("Pass the all user info")
+    }
+    
+    func updateUsers() {
+        print("Here updates all users")
     }
 }
